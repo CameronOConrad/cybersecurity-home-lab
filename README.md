@@ -32,11 +32,18 @@ From the Ubuntu machine, I ran a network scan against the Windows machine using 
 - Nmap scan results
 - Windows firewall logs showing blocked connections
 
-## What I Learned
-- How virtual machine networking works
+## Lessons Learned
+- Learned how NAT networks work with VirtualBox
+- Learned how to enable and read Windows firewall logs
 - How to identify suspicious activity in logs
 - That security logging must be enabled to detect attacks
+- Learned how to detect port scans with Nmap
 - How to document technical work clearly
+
+## Next Steps
+- Add centralized log collection with Splunk or Wazuh
+- Create alerts for suspicious activity
+- Add more simulated attacks
 
 **Example Command:**
 ```bash
