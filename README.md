@@ -20,6 +20,13 @@ This project documents the setup of a small cybersecurity home lab using virtual
 ### Network Scan
 From the Ubuntu machine, I ran a network scan against the Windows machine using Nmap to simulate reconnaissance activity.
 
+## Authentication Failures
+- Fenerated failed login attempts on Windows
+- Reviewed Windows Security Event logs
+- Reviewed Linux authentication logs
+
+## Evidence
+
 **Example Command:**
 ```bash
 nmap -sS 10.0.2.7
