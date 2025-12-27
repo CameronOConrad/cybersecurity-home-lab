@@ -27,16 +27,16 @@ From the Ubuntu machine, I ran a network scan against the Windows machine using 
 
 ## Evidence
 ### Screenshots in the screenshots folder show:
--IP configuration on both systems
--Successful network communication 
--Nmap scan results
--Windows firewall logs showing blocked connections
+- IP configuration on both systems
+- Successful network communication 
+- Nmap scan results
+- Windows firewall logs showing blocked connections
 
 ## What I Learned
--How virtual machine networking works
--How to identify suspicious activity in logs
--That security logging must be enabled to detect attacks
--How to document technical work clearly
+- How virtual machine networking works
+- How to identify suspicious activity in logs
+- That security logging must be enabled to detect attacks
+- How to document technical work clearly
 
 **Example Command:**
 ```bash
