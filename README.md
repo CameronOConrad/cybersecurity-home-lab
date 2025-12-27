@@ -21,13 +21,25 @@ This project documents the setup of a small cybersecurity home lab using virtual
 From the Ubuntu machine, I ran a network scan against the Windows machine using Nmap to simulate reconnaissance activity.
 
 ## Authentication Failures
-- Fenerated failed login attempts on Windows
+- Generated failed login attempts on Windows
 - Reviewed Windows Security Event logs
 - Reviewed Linux authentication logs
 
 ## Evidence
+### Screenshots in the screenshots folder show:
+-IP confifuration on both systems
+-Successful network communication 
+-Nmap scan results
+-Windows firewall logs showing blocked connections
+
+## What I Learned
+-How virual machine networking works
+-How to identify suspicious activity in logs
+-That secuurity logging must be enabled to detect attacks
+-How to document technical work clearly
 
 **Example Command:**
 ```bash
 nmap -sS 10.0.2.7
 Cybersecurity home lab demonstrating basic attack simulation and log analysis using Windows and Linux virtual machines.
+
